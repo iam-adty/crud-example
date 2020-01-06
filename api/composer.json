@@ -1,0 +1,30 @@
+{
+    "name": "adty/crud-example",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=7.2",
+        "codeigniter4/framework": "dev-hotfix/v4.0.0-rc.3-quick-fix-postgresql-insert-id",
+        "adty/ici4": "0.9.0"
+    },
+    "require-dev": {
+        "mikey179/vfsstream": "1.6.*",
+        "phpunit/phpunit": "^7.0"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:_adty/ici4.git"
+        },
+        {
+            "type": "git",
+            "url": "https://github.com/iam-adty/codeigniter4-framework.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Bagus A Priambada",
+            "email": "bagus.a.priambada@gmail.com"
+        }
+    ]
+}
